@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <form action="" class="form" id="form" autocomplete="off">
+                <p class="form-titulo">Regístrate</p>
+
+                <div class="form-input nombre">
+                    <input type="text" id="nombre">
+                    <label for="nombre">Nombre</label>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <div class="form-input apellido">
+                    <input type="text" id="apellido">
+                    <label for="apellido">Apellidos</label>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <div class="form-input matricula">
+                    <input type="text" id="matricula">
+                    <label for="matricula">Matricula</label>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <div class="form-input telefono">
+                    <input type="text" id="telefono">
+                    <label for="telefono">Telefono</label>
+                    <p class="mensajeError"></p>
+                </div>
+
+                <div class="form-input correo">
+                    <input type="email" id="correo">
+                    <label for="correo">Correo electrónico</label>
+                    <p class="mensajeError"></p>
+                </div>
+
+
+                <div class="form-boton">
+                    <button type="submit" value="Enviar" onclick="enviarFormulario()">Enviar</button>
+                </div>
+                <p class="mensajeCorrecto"></p>
+
+
+
+            </form>
+        </center>
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
